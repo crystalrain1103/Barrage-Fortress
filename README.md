@@ -28,21 +28,21 @@
 
 1.打开本应用程序 `Ciallo～(∠・ω )⌒★.exe` 
 
- ![屏幕截图 2024-12-12 003708](C:\Users\CrystalRain\Pictures\Screenshots\屏幕截图 2024-12-12 003708.png)
+ <img src=".\README.assets\pic_step1.png"/>
 
 2.现在您应该看到了本游戏的主菜单：（现版本为alpha测试版）
 
-![**屏幕截图 2024-12-12 003846**](.\README.assets\pic_step2.png)
+<img src=".\README.assets\pic_step2.png" />
 
 3.左上角为您**上一局游戏**的**时间**与**分数**。现在，您可以选择三个选项中的其一，~~`settings`正在开发中所以您点击后可以看见弹出**’COMING SOON!'**的对话框~~，点击`quit`后即直接退出，点击`start game`后进入难度选择界面：
 
-![屏幕截图 2024-12-12 004212](.\README.assets\pic_step3.png)
+<img src=".\README.assets\pic_step3.png" />
 
 4.您可以点击`back`返回，或是选择`PRESENT`,`FUTURE`或是`BEYOND`难度~~（您如果熟悉ACRAEA的话便可一眼看出难度从上到下递增）~~，然后进入正式游戏界面
 
-![屏幕截图 2024-12-12 004641](.\README.assets\pic_step4.png)
+<img src=".\README.assets\pic_step4.png"/>
 
-5.基本玩法如下：![屏幕截图 2024-12-12 005840](.\README.assets\pic_step5-1.png)
+5.基本玩法如下：<img src=".\README.assets\pic_step5-1.png"/>
 
 键盘的`W`,`S`,`A`,`D`控制上，下，左，右；`esc`键可以暂停游戏，再次点击`esc`键即可恢复游戏
 
