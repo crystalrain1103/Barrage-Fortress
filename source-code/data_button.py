@@ -1,0 +1,111 @@
+from const import *
+
+SETTINGS_BUTTON_ID = 0
+START_BUTTON_ID = 1
+QUIT_BUTTON_ID = 2
+PRESENT_BUTTON_ID = 3
+FUTURE_BUTTON_ID = 4
+BEYOND_BUTTON_ID = 5
+DIFFICULTY_BACK_BUTTON_ID = 6
+SETTINGS_TEMP_DIALOG_ID = 7
+
+BUTTON_WIDTH = 200
+BUTTON_HEIGHT = 50
+BUTTON_MARGIN = 20
+BUTTON_X = (SCREEN_SIZE[0] - BUTTON_WIDTH) / 2
+BUTTON_Y = (SCREEN_SIZE[1] - BUTTON_HEIGHT) / 2
+
+DIALOG_WIDTH = 400
+DIALOG_HEIGHT = 200
+DIALOG_X = (SCREEN_SIZE[0] - DIALOG_WIDTH) / 2
+DIALOG_Y = (SCREEN_SIZE[1] - DIALOG_HEIGHT) / 2
+
+data = {
+    SETTINGS_BUTTON_ID : {
+        'X' : BUTTON_X,
+        'Y' : BUTTON_Y - BUTTON_HEIGHT - BUTTON_MARGIN,
+        'WIDTH' : BUTTON_WIDTH,
+        'HEIGHT' : BUTTON_HEIGHT,
+        'BUTTON_COLOR' : WHITE,
+        'TEXT' : 'settings',
+        'TEXT_LOC' : (BUTTON_X + 45, BUTTON_Y - BUTTON_HEIGHT - BUTTON_MARGIN + 15),
+        'TEXT_COLOR' : BLACK,
+    },
+
+    START_BUTTON_ID: {
+        'X' : BUTTON_X,
+        'Y' : BUTTON_Y,
+        'WIDTH' : BUTTON_WIDTH,
+        'HEIGHT' : BUTTON_HEIGHT,
+        'BUTTON_COLOR' : WHITE,
+        'TEXT' : 'start game',
+        'TEXT_LOC' : (BUTTON_X + 30, BUTTON_Y + 15),
+        'TEXT_COLOR' : BLACK,
+    },
+
+    QUIT_BUTTON_ID: {
+        'X': BUTTON_X,
+        'Y': BUTTON_Y + BUTTON_HEIGHT + BUTTON_MARGIN,
+        'WIDTH': BUTTON_WIDTH,
+        'HEIGHT': BUTTON_HEIGHT,
+        'BUTTON_COLOR': WHITE,
+        'TEXT': 'quit',
+        'TEXT_LOC': (BUTTON_X + 70, BUTTON_Y + BUTTON_HEIGHT + BUTTON_MARGIN + 15),
+        'TEXT_COLOR': BLACK,
+    },
+
+    PRESENT_BUTTON_ID: {
+        'X': BUTTON_X,
+        'Y': BUTTON_Y - BUTTON_HEIGHT - BUTTON_MARGIN,
+        'WIDTH': BUTTON_WIDTH,
+        'HEIGHT': BUTTON_HEIGHT,
+        'BUTTON_COLOR': WHITE,
+        'TEXT': 'PRESENT',
+        'TEXT_LOC': (BUTTON_X + 35, BUTTON_Y - BUTTON_HEIGHT - BUTTON_MARGIN + 15),
+        'TEXT_COLOR': BLACK,
+    },
+
+    FUTURE_BUTTON_ID: {
+        'X': BUTTON_X,
+        'Y': BUTTON_Y,
+        'WIDTH': BUTTON_WIDTH,
+        'HEIGHT': BUTTON_HEIGHT,
+        'BUTTON_COLOR': WHITE,
+        'TEXT': 'FUTURE',
+        'TEXT_LOC': (BUTTON_X + 45, BUTTON_Y + 15),
+        'TEXT_COLOR': BLACK,
+    },
+
+    BEYOND_BUTTON_ID: {
+        'X': BUTTON_X,
+        'Y': BUTTON_Y + BUTTON_HEIGHT + BUTTON_MARGIN,
+        'WIDTH': BUTTON_WIDTH,
+        'HEIGHT': BUTTON_HEIGHT,
+        'BUTTON_COLOR': WHITE,
+        'TEXT': 'BEYOND',
+        'TEXT_LOC': (BUTTON_X + 45, BUTTON_Y + BUTTON_HEIGHT + BUTTON_MARGIN + 15),
+        'TEXT_COLOR': BLACK,
+    },
+
+    DIFFICULTY_BACK_BUTTON_ID: {
+        'X': BUTTON_X,
+        'Y': BUTTON_Y + 2 * (BUTTON_HEIGHT + BUTTON_MARGIN),
+        'WIDTH': BUTTON_WIDTH,
+        'HEIGHT': BUTTON_HEIGHT,
+        'BUTTON_COLOR': WHITE,
+        'TEXT': 'back',
+        'TEXT_LOC': (BUTTON_X + 70, BUTTON_Y + 2 * (BUTTON_HEIGHT + BUTTON_MARGIN) + 15),
+        'TEXT_COLOR': BLACK,
+    },
+
+    SETTINGS_TEMP_DIALOG_ID: {
+        'X': DIALOG_X,
+        'Y': DIALOG_Y,
+        'WIDTH': DIALOG_WIDTH,
+        'HEIGHT': DIALOG_HEIGHT,
+        'BUTTON_COLOR': GREEN,
+        'TEXT': 'COMING SOON!',
+        'TEXT_LOC': (DIALOG_X + 100, DIALOG_Y + 75),
+        'TEXT_COLOR': WHITE,
+    },
+}
