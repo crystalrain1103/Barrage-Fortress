@@ -32,17 +32,17 @@
 
 2.现在您应该看到了本游戏的主菜单：（现版本为alpha测试版）
 
-![**屏幕截图 2024-12-12 003846**](C:\Users\CrystalRain\Pictures\Screenshots\屏幕截图 2024-12-12 003846.png)
+![**屏幕截图 2024-12-12 003846**](.\README.assets\pic_step2.png)
 
 3.左上角为您**上一局游戏**的**时间**与**分数**。现在，您可以选择三个选项中的其一，~~`settings`正在开发中所以您点击后可以看见弹出**’COMING SOON!'**的对话框~~，点击`quit`后即直接退出，点击`start game`后进入难度选择界面：
 
-![屏幕截图 2024-12-12 004212](C:\Users\CrystalRain\Pictures\Screenshots\屏幕截图 2024-12-12 004212.png)
+![屏幕截图 2024-12-12 004212](.\README.assets\pic_step3.png)
 
 4.您可以点击`back`返回，或是选择`PRESENT`,`FUTURE`或是`BEYOND`难度~~（您如果熟悉ACRAEA的话便可一眼看出难度从上到下递增）~~，然后进入正式游戏界面
 
-![屏幕截图 2024-12-12 004641](C:\Users\CrystalRain\Pictures\Screenshots\屏幕截图 2024-12-12 004641.png)
+![屏幕截图 2024-12-12 004641](.\README.assets\pic_step4.png)
 
-5.基本玩法如下：![屏幕截图 2024-12-12 005840](C:\Users\CrystalRain\Pictures\Screenshots\屏幕截图 2024-12-12 005840.png)
+5.基本玩法如下：![屏幕截图 2024-12-12 005840](.\README.assets\pic_step5-1.png)
 
 键盘的`W`,`S`,`A`,`D`控制上，下，左，右；`esc`键可以暂停游戏，再次点击`esc`键即可恢复游戏
 
@@ -56,7 +56,7 @@
 
 在这个过程中您需要同时躲避敌人发射的子弹，玩家的判定点在**干员脚底的的蓝色圆圈处**
 
-当游戏时间到达**第一分钟**时**BOSS（上图右下）**会在地图右上角刷新，玩家击败**BOSS第一阶段（上图右下）**与**第二阶段（下图）**后游戏结束，玩家**胜利**；若玩家血量到达0，游戏结束，玩家**失败**。<img src="C:\Users\CrystalRain\Pictures\Screenshots\屏幕截图 2024-12-12 010455.png" alt="屏幕截图 2024-12-12 010455" style="zoom:50%;" />
+当游戏时间到达**第一分钟**时**BOSS（上图右下）**会在地图右上角刷新，玩家击败**BOSS第一阶段（上图右下）**与**第二阶段（下图）**后游戏结束，玩家**胜利**；若玩家血量到达0，游戏结束，玩家**失败**。<img src=".\README.assets\pic_step5-2.png" alt="pic_step5-2" style="zoom:50%;" />
 
 6.游戏结束后您会回到**第2步的界面**，之后您可按照前面的指引再次进行游戏或退出。
 
@@ -66,7 +66,7 @@
 
 ##### 二、我方干员图鉴
 
-<u>断罪者</u>：																	<img src="E:\Programme\24Fall ProgramDesign\D\pic\Staff\0.png" alt="0" style="zoom:50%;" />
+<u>断罪者</u>：																	<img src=".\README.assets\staff_conviction.png" alt="staff_conviction" style="zoom:50%;" />
 
 HP：100
 
@@ -82,7 +82,7 @@ speed：15
 
 ##### 三、敌方生物图鉴：
 
-<u>法术大师A1</u>：															<img src="E:\Programme\24Fall ProgramDesign\D\pic\Plane_level1\move\0.png" alt="0" style="zoom:67%;" />				
+<u>法术大师A1</u>：															<img src=".\README.assets\enemy_planeA1.png" alt="enemy_planeA1" style="zoom:67%;" />				
 
 HP：10
 
@@ -94,7 +94,7 @@ speed：5
 
 
 
-<u>寒霜无人机</u>：															<img src="E:\Programme\24Fall ProgramDesign\D\pic\Plane_Ice\move\0.png" alt="0" style="zoom: 33%;" />
+<u>寒霜无人机</u>：															<img src=".\README.assets\enemy_planeIce.png" alt="enemy_planeIce" style="zoom: 33%;" />
 
 HP：10
 
@@ -104,7 +104,7 @@ tears：0
 
 speed：5
 
-SKILL：接近时对我方干员造成<u>**寒冷**</u>效果（如右图）<img src="C:\Users\CrystalRain\Pictures\Screenshots\屏幕截图 2024-12-12 010419.png" alt="屏幕截图 2024-12-12 010419" style="zoom:50%;" />
+SKILL：接近时对我方干员造成<u>**寒冷**</u>效果（如右图）<img src=".\README.assets\debuff_cold.png" alt="debuff_cold" style="zoom:50%;" />
 
 
 
@@ -114,7 +114,7 @@ SKILL：接近时对我方干员造成<u>**寒冷**</u>效果（如右图）<img
 
 
 
-<u>“巨大的丑东西”（阶段一）</u>：										<img src="E:\Programme\24Fall ProgramDesign\backup\pic\Boss\Stage1_Move\Left\0.png" alt="0" style="zoom:33%;" />
+<u>“巨大的丑东西”（阶段一）</u>：										<img src=".\README.assets\enemy_boss_stage1.png" alt="enemy_boss_stage1" style="zoom:33%;" />
 
 HP：500
 
@@ -126,7 +126,7 @@ speed：15
 
 
 
-<u>“巨大的丑东西”（阶段二）</u>：												<img src="E:\Programme\24Fall ProgramDesign\backup\pic\Boss\Stage2_Move\Left\11.png" alt="11" style="zoom:50%;" />
+<u>“巨大的丑东西”（阶段二）</u>：												<img src=".\README.assets\enemy_boss_stage2.png" alt="enemy_boss_stage2" style="zoom:50%;" />
 
 HP：100
 
@@ -144,13 +144,13 @@ speed：25
 
 
 
-<u>BUFF</u>：																								<img src="E:\Programme\24Fall ProgramDesign\backup\pic\Buff\buff.png" alt="buff" style="zoom:50%;" />
+<u>BUFF</u>：																								<img src=".\README.assets\special_buff.png" alt="special_buff" style="zoom:50%;" />
 
 **拾取后：攻击间隔变为原来的1/2，攻击变为3连发**
 
 
 
-<u>HEAL</u>：																								<img src="E:\Programme\24Fall ProgramDesign\backup\pic\Heal\heal.png" alt="heal" style="zoom:50%;" />
+<u>HEAL</u>：																								<img src=".\README.assets\special_heal.png" alt="heal" style="zoom:50%;" />
 
 **拾取后：血量+50/+25/+5（PRESENT/FUTURE/BEYOND难度）**
 
